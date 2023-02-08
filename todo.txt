@@ -1,0 +1,2 @@
+A footer részt maj a legvégén csináljuk meg, mert azt csak át kell másloni az egyikból a máskiba.
+

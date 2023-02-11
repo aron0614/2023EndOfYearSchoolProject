@@ -25,7 +25,7 @@ nav ul li{
     display: inline; 
 }
 
-a:link{
+nav a:link{
     color: #000000;
 }
 
@@ -59,23 +59,8 @@ footer{
     background-color: #21b139;
 }
 
-.left_side{
-    float: left;
-    width:48%; 
-    padding-left: 15px;
-    background-color: lightgrey;
-    border: 0px solid black;
-    border-radius:5px;
 
+#charakter  {
+    color: #210fc0;
+    text-decoration: none;
 }
-
-.right_side{
-    float: right;
-    margin-right: 12px;
-    padding-left: 15px;
-    width: 48%; 
-    background-color: lightgrey;
-    border: 0px solid black;
-    border-radius:5px;
-}
-

@@ -1,22 +1,59 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
 body{
-    width: 100%;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    margin-left: 6px;
-    margin-right: 5px;
     width: auto;
+    
 }
 
 header{
     background-color: aqua;
-    padding: 5px;
     list-style-type: none;
     float: left;
     color: #000000;
-    margin-bottom: 15px;
-    margin-left:0px ;
-    margin-right: 0px;
-    width: 99%;
+
 }
 
 nav ul li{
@@ -29,26 +66,13 @@ nav a:link{
     color: #000000;
 }
 
-a:visited{
+nav a:visited{
     color: #cf22be;
 }
 
 a:hover{
     color: #ffffff;
     background-color: #000000;
-}
-
-aside{
-    float:left;
-    width: 30%;
-    background-color: lightgrey;
-    border: 0px solid black;
-    border-radius:5px;
-}
-
-main{
-    float: right;
-    width: 70%;
 }
 
 
@@ -64,3 +88,99 @@ footer{
     color: #210fc0;
     text-decoration: none;
 }
+
+#hunterimg{
+    width: 600px;
+}
+
+#warlockimg{
+    height: 600px;
+}
+
+#zavala{
+    width: 600px;
+}
+
+/* Beni buzi */
+body, html {
+    height: 100%;
+}
+
+.main_parallax {
+  /* The image used */
+  background-image: url("../images/Screenshot_20230215-081755.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box div {
+  width: 100px;
+  height: 100px;
+}
+
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    width: auto;
+    border: 1px solid blue;
+}
+
+.flex-item {
+    background-color: tomato;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.captionDiv {
+    display: block;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 0px;
+}
+
+
+#d2logo{
+    width:80%;
+}
+

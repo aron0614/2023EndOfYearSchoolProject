@@ -1,123 +1,209 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 
-body{
+body {
     width: auto;
-    
+    font-size: 110%;
 }
 
-header{
-    background-color: aqua;
+header {
+    background-color: rgb(69, 89, 89);
     list-style-type: none;
-    float: left;
-    color: #000000;
+    text-align: center;
+    color: #ffffffb2;
+    padding: 15px;
 
 }
 
-nav ul li{
+
+nav ul li {
     padding-top: 20px;
     padding-right: 15px;
-    display: inline; 
+    display: inline;
 }
 
-nav a:link{
+nav a:link {
     color: #000000;
 }
 
-nav a:visited{
-    color: #cf22be;
+nav a:visited {
+    color: #be80b8;
 }
 
-a:hover{
+.navlink {
+    margin: auto;
+}
+
+nav a:hover {
     color: #ffffff;
     background-color: #000000;
 }
 
+a:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
 
-footer{
-    float:left;
+footer {
+    float: left;
     width: 100%;
-    text-align:center;
+    text-align: center;
     background-color: #21b139;
 }
 
+#jatekleiras {
+    max-width: 45%;
 
-#charakter  {
+}
+
+#charakter {
     color: #210fc0;
     text-decoration: none;
-}
 
-#hunterimg{
-    width: 600px;
-}
-
-#warlockimg{
-    height: 600px;
-}
-
-#zavala{
-    width: 600px;
 }
 
 /* Beni buzi */
-body, html {
+body,
+html {
     height: 100%;
 }
 
 .main_parallax {
-  /* The image used */
-  background-image: url("../images/Screenshot_20230215-081755.jpg");
+    /* The image used */
+    background-image: url("../images/Screenshot_20230215-081755.jpg");
 
-  /* Full height */
-  height: 100%;
+    /* Full height */
+    height: 100%;
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .box {
@@ -127,8 +213,8 @@ body, html {
 }
 
 .box div {
-  width: 100px;
-  height: 100px;
+    width: 100px;
+    height: 100px;
 }
 
 .flex-container {
@@ -180,7 +266,41 @@ body, html {
 }
 
 
-#d2logo{
-    width:80%;
+#d2logo {
+    width: 80%;
+}
+
+main {
+    padding: 2%;
+}
+
+main div {
+    display: block;
+
+}
+
+.karakter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.karakter h3 {
+    width: 100%;
+}
+
+.karakter p {
+    flex-basis: 40%;
+    line-height: 150%;
+    
+}
+
+.karakter img {
+    width: 50%;
+    justify-self: end;
+}
+
+#alapinfo{
+    line-height: 125%;
 }
 

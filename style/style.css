@@ -286,6 +286,8 @@ main div {
     justify-content: space-between;
 }
 
+
+
 .karakter h3 {
     width: 100%;
 }
@@ -307,3 +309,18 @@ main div {
     
 }
 
+.inventory{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inventory img{
+    width: 55%;
+    margin: 1%;
+}
+
+.inventory p{
+    flex-basis: 40%;
+    justify-self: end;
+}
